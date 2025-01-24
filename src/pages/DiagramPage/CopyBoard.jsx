@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 export const CopyBoard = () => {
     const params=useParams();
     //const link=`http://localhost:5173/diagram/${params.id}`;
-const link=`https://frontend-diagramador-git-main-erickas-projects-687d0320.vercel.app/${params.id}`;
+const link=`https://frontend-diagramador-h627qggpn-erickas-projects-687d0320.vercel.app/${params.id}`;
     const handleCopyClick = () => {
         // Aquí puedes agregar cualquier lógica adicional que desees antes de copiar el contenido
         console.log('Contenido copiado:', inputValue);
